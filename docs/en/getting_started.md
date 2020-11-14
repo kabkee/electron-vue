@@ -23,7 +23,7 @@ Although optional, it is recommended to lock in your electron version after scaf
 
 If you run into errors during `npm install` about `node-gyp`, then you most likely do not have the proper build tools installed on your system. Build tools include items like Python and Visual Studio. Thanks to [@felixrieseberg](https://github.com/felixrieseberg), there are a few packages to help simplify this process.
 
-The first item we need to check is our npm version and ensure that it is not outdated. This can is accomplished using [`npm-windows-upgrade`](https://github.com/felixrieseberg/npm-windows-upgrade). If you are using `yarn`, then you can skip this check.
+The first item we need to check is our npm version and ensure that it is not outdated. This can be accomplished using [`npm-windows-upgrade`](https://github.com/felixrieseberg/npm-windows-upgrade). If you are using `yarn`, then you can skip this check.
 
 Once that is complete, we can then continue to setup the needed build tools. Using [`windows-build-tools`](https://github.com/felixrieseberg/windows-build-tools), most of the dirty work is done for us. Installing this globally will in turn setup Visual C++ packages, Python, and more.
 
